@@ -59,10 +59,11 @@ import inquirer from "inquirer";
 import fs from "fs";
 
 program
+  .command('asd')
   .name("program-name")
-  .option("-t, --title <title>", "HTML 파일의 제목을 입력하세요")
-  .option("-p, --p <p>", "HTML p태그에 내용 작성하기")
-  .option("-r, --root", "body 태그의 자식으로서 최상위 div #root 태그 사용")
+  .option("-t, --title <title>", `${program.title}`)
+  .option("-p, --p <p>", `${program.p}`)
+  .option("-r, --root", `${program.root}`)
   .parse(process.argv);
 
 inquirer
