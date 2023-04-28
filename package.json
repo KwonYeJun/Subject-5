@@ -19,6 +19,7 @@
   "homepage": "https://github.com/KwonYeJun/Subject-5#readme",
   "dependencies": {
     "commander": "^10.0.1",
+    "fs": "^0.0.1-security",
     "inquirer": "^9.2.0"
   }
 }
